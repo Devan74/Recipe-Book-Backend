@@ -8,7 +8,7 @@ const commentRoutes = require('./routes/commentRoutes');
 const config = require('./config/config');
 require('dotenv').config();
 const app = express();
-const ClintURL="http://localhost:5173"
+const ClintURL="https://recipe-book-apps.netlify.app"
 // Middleware
 app.use(bodyParser.json());
 app.use(cors(ClintURL));
